@@ -1,4 +1,4 @@
-import { db, Task } from "./db";
+import { db, type Task } from "./db";
 import { useLiveQuery } from "dexie-react-hooks";
 
 /**
@@ -41,3 +41,5 @@ export async function deleteTask(key: number): Promise<void> {
 export function useTasks(): Array<Task> {
     return useLiveQuery(getTasks, [], [])
 }
+
+export { type Task } from "./db"
