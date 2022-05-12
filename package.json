@@ -1,0 +1,15 @@
+{
+  "name": "task-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dexie": "^3.2.1",
+    "dexie-react-hooks": "^1.1.1"
+  },
+  "author": "Boris Dudelsack <boris.dudelsack@hs-flensburg.de>",
+  "license": "ISC"
+}
