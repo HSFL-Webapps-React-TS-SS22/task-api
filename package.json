@@ -1,13 +1,14 @@
 {
   "name": "task-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --module commonjs"
   },
   "dependencies": {
-    "dexie": "^3.2.1",
+    "dexie": "^3.2.2",
     "dexie-react-hooks": "^1.1.1"
   },
   "author": "Boris Dudelsack <boris.dudelsack@hs-flensburg.de>",
